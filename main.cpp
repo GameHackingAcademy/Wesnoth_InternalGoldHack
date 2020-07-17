@@ -28,8 +28,8 @@ void injected_thread() {
 			*gold = 999;
 		}
 
-        // So our thread doesn't constantly run, we have it pause execution for a millisecond.
-        // This allows the processor to schedule other tasks.
+        	// So our thread doesn't constantly run, we have it pause execution for a millisecond.
+        	// This allows the processor to schedule other tasks.
 		Sleep(1);
 	}
 }
