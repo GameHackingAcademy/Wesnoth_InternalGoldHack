@@ -1,4 +1,4 @@
-# InternalMemoryHack
+# Wesnoth_InternalGoldHack
 An internal memory hack for Wesnoth 1.14.9 that modifies the player's gold.
 
 This is an example of a DLL that needs to be injected into Wesnoth. Once injected, it creates a thread within the game. This thread waits for a player to hit the "M" key and then uses a series of pointers to directly set the player's gold value to 999. 
